@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VolunteerVerse</title>
+    <link rel="stylesheet" href="css_VV8.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1 class="logo">VolunteerVerse</h1>
+            <nav>
+                <ul>
+                    <li><a href="VolunteerVerse8.html" onclick="showSection('home')">Beranda</a></li>
+                    <li><a href="VV_aktivitas.html" onclick="showSection('aktivitas')">Aktivitas</a></li>
+                    <li><a href="VV_tentangkami.html" onclick="showSection('tentang-kami')">Tentang Kami</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <a href="loginVV.html"><button class="login-btn">Login / Buat Akun</button></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Halaman Beranda -->
+    <section id="home" class="section">
+        <div class="hero">
+            <div class="hero-content">
+                <h2>VolunteerVerse</h2>
+                <p>Bergabunglah dengan komunitas relawan, berikan dampak nyata bagi masyarakat dan lingkungan!</p>
+                <a href="VV_aktivitas.html"></a><button class="cta-btn">Mulai Aksi Positif</button></a>
+            </div>
+            <div class="hero-image">
+                <img src="VVhal1.png" alt="Volunteer group">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Halaman Aktivitas -->
+    <section id="aktivitas" class="Section">
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="cari aktivitas" oninput="searchActivity()">
+        </div>
+        <div class="activity-cards">
+            <div class="activity-cards">
+                <div class="activity-cards">
+                    <div class="activity-card" data-title="Open Recruitment Staff RUBELA UTBK Indonesia">
+                        <img src="gambar1.png" width="200" height="150">
+                        <h3>Open Recruitment Staff RUBELA UTBK Indonesia</h3>
+                        <p>RUBELA Indonesia</p>
+                        <p>10 Okt 2024 - 23 Apr 2025</p>
+                        <p>Kota Jakarta</p>
+                        <a href="https://forms.gle/LtJqXPpyLNg4N9LA7"><button>Daftar Sekarang</button></a>
+                    </div>            
+                    <div class="activity-card" data-title="Kemah Moderasi: Hari Sumpah Pemuda (Semarang)">
+                        <img src="gambar2.png" width="200" height="150">
+                        <h3>Kemah Moderasi: Hari Sumpah Pemuda (Semarang)</h3>
+                        <p>GPF Indonesia</p>
+                        <p>26 Oktober 2024</p>
+                        <p>Kabupaten Semarang</p>
+                        <a href="https://forms.gle/F3YFkuFKa6w9f5Da8"><button>Daftar Sekarang</button></a>
+                    </div>           
+                    <div class="activity-card" data-title="Humanitrip - Wisata bersama Adik Yatim Duafa">
+                        <img src="gambar3.jpg" width="200" height="150">
+                        <h3>Humanitrip - Wisata bersama Adik Yatim Duafa</h3>
+                        <p>Human Volunteer Energy </p>
+                        <p>12 Oktober 2024</p>
+                        <p>Kabupaten Bogor</p>
+                        <a href="https://forms.gle/hR4D8JrN6Arx2yCo8"><button>Daftar Sekarang</button></a>
+                    </div> 
+                    <div class="activity-card" data-title="OPREC- Relawan Online 'Bantu Sekolah Yuk!'">
+                        <img src="gambar5.png" width="200" height="150">
+                        <h3>OPREC - Relawan Online 'Bantu Sekolah Yuk!'</h3>
+                        <p>TurunTanganSDA</p>
+                        <p>23 Okt 2024 - 25 Okt 2024</p>
+                        <p> Kabupaten Sidoarjo</p>
+                        <a href="https://forms.gle/DqQTKL8Pm6oYKLpq8"><button>Daftar Sekarang</button></a>
+                    </div>
+                </div>  
+            </div>   
+        <div class="aktivitas lainnya">
+            <a href="VV_aktivitas.html"><button>Aktivitas Lainnya</button></a>
+        </div>
+    </section>
+
+    <!-- Halaman Testimoni -->
+    <section id="testimoni" class="section">
+        <h2 class="section-title">Testimoni</h2>
+        <p class="section-subtitle">Mereka yang pernah menggunakan VolunteerVerse</p>
+        <section class="testimoni-container">
+            <div class="testimoni-slider">
+                <div class="testimoni-slide">
+                    <img src="volunteer2.png" alt="Testimoni 1">
+                    <div class="testimoni-text">
+                        <h2>Gerakan Suka Baca</h2>
+                        <p>VolunteerVerse membantu Gerakan Suka Baca dalam menemukan ribuan relawan yang punya minat di isu pendidikan dan literasi. Kini kami dapat terus berkarya dan membuat konten edukatif sebagai alternatif bagi anak dan orangtua dalam mengakses pendidikan dengan bebas biaya.</p>
+                    </div>
+                </div>
+                <div class="testimoni-slide">
+                    <img src="volunteer4.jpg" alt="Testimoni 2">
+                    <div class="testimoni-text">
+                        <h2>Relawan Peduli Lingkungan</h2>
+                        <p>Dengan VolunteerVerse, kami berhasil mendapatkan relawan untuk melestarikan lingkungan. Mereka sangat membantu menjaga kebersihan dan kelestarian alam.</p>
+                    </div>
+                </div>
+                <div class="testimoni-slide">
+                    <img src="volunteer5.jpeg" alt="Testimoni 3">
+                    <div class="testimoni-text">
+                        <h2>Relawan Mengajar</h2>
+                        <p>Program donasi pendidikan kami semakin luas berkat bantuan relawan dari VolunteerVerse. Dukungan mereka sangat berarti dalam memberikan akses pendidikan bagi anak-anak di daerah terpencil.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+            <script src="script_VV8.js"></script>
+        </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 VolunteerVerse. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <script src="script_VV8.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VV_aktivitas</title>
+    <link rel="stylesheet" href="css_VV8.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1 class="logo">VolunteerVerse</h1>
+            <nav>
+                <ul>
+                    <li><a href="VolunteerVerse8.html" onclick="showSection('home')">Beranda</a></li>
+                    <li><a href="VV_aktivitas.html" onclick="showSection('aktivitas')">Aktivitas</a></li>
+                    <li><a href="VV_tentangkami.html" onclick="showSection('tentang-kami')">Tentang Kami</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <a href="loginVV.html"><button class="login-btn">Login / Buat Akun</button></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="aktivitas" class="Section">
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="cari aktivitas" oninput="searchActivity()">
+        </div>
+        <div class="activity-cards">
+            <div class="activity-card" data-title="Open Recruitment Staff RUBELA UTBK Indonesia">
+                <img src="gambar1.png" width="200" height="150">
+                <h3>Open Recruitment Staff RUBELA UTBK Indonesia</h3>
+                <p>RUBELA Indonesia</p>
+                <p>10 Okt 2024 - 23 Apr 2025</p>
+                <p>Kota Jakarta</p>
+                <a href="https://forms.gle/LtJqXPpyLNg4N9LA7"><button>Daftar Sekarang</button></a>
+            </div>            
+            <div class="activity-card" data-title="Kemah Moderasi: Hari Sumpah Pemuda (Semarang)">
+                <img src="gambar2.png" width="200" height="150">
+                <h3>Kemah Moderasi: Hari Sumpah Pemuda (Semarang)</h3>
+                <p>GPF Indonesia</p>
+                <p>26 Oktober 2024</p>
+                <p>Kabupaten Semarang</p>
+                <a href="https://forms.gle/F3YFkuFKa6w9f5Da8"><button>Daftar Sekarang</button></a>
+            </div>           
+            <div class="activity-card" data-title="Humanitrip - Wisata bersama Adik Yatim Duafa">
+                <img src="gambar3.jpg" width="200" height="150">
+                <h3>Humanitrip - Wisata bersama Adik Yatim Duafa</h3>
+                <p>Human Volunteer Energy </p>
+                <p>12 Oktober 2024</p>
+                <p>Kabupaten Bogor</p>
+                <a href="https://forms.gle/hR4D8JrN6Arx2yCo8"><button>Daftar Sekarang</button></a>
+            </div> 
+            <div class="activity-card" data-title="OPREC- Relawan Online 'Bantu Sekolah Yuk!'">
+                <img src="gambar5.png" width="200" height="150">
+                <h3>OPREC - Relawan Online 'Bantu Sekolah Yuk!'</h3>
+                <p>TurunTanganSDA</p>
+                <p>23 Okt 2024 - 25 Okt 2024</p>
+                <p> Kabupaten Sidoarjo</p>
+                <a href="https://forms.gle/DqQTKL8Pm6oYKLpq8"><button>Daftar Sekarang</button></a>
+            </div>          
+            <div class="activity-card" data-title="Open Recruitment Membuat Konten Kreator Untuk Disabilitas">
+                <img src="gambar4.jpg" width="200" height="150">
+                <h3>Open Recruitment Membuat Konten Kreator Disabilitas</h3>
+                <p>kitaoneus.asia</p>
+                <p>1 Nov 2024 - 31 Des 2024</p>
+                <p>Kota Jakarta Selatan</p>
+                <a href="https://forms.gle/5LGqqjm9sYQdxEVi6"><button>Daftar Sekarang</button></a>
+            </div>          
+            <div class="activity-card" data-title="Narasumber Kelas Menulis Sigupai Mambaco">
+                <img src="gambar6.jpg" width="200" height="150">
+                <h3>Narasumber Kelas Menulis Sigupai Mambaco</h3>
+                <p>Sigupai Mambaco</p>
+                <p>24-25 November 2024</p>
+                <p>Kota Padang</p>
+                <a href="https://forms.gle/cDTvmNvKH7fTZ1pz5"><button>Daftar Sekarang</button></a>
+            </div>
+            <div class="activity-card" data-title="Oprec Pengurus RYTI Forum Community 2024-2025">
+                <img src="gambar7.jpg" width="200" height="150">
+                <h3>Oprec Pengurus RYTI Forum Community 2024-2025</h3>
+                <p>RYTI Forum Community</p>
+                <p>2 november 2024 </p>
+                <p> Kota Semarang </p>
+                <a href="https://forms.gle/pDqmDJWa4BR6RrP89"><button>Daftar Sekarang</button></a>
+            </div>
+            <div class="activity-card" data-title="Open Recruitment Relawan Sumatera Utara">
+                <img src="gambar8.png" width="200" height="150">
+                <h3>Open Recruitment Relawan Sumatera Utara</h3>
+                <p>Wujud Aksi Nyata</p>
+                <p>10-11 Desember 2024</p>
+                <p>Kota Sumatera Utara</p>
+                <a href="https://forms.gle/u55s3xsVxZwu5y8Q7"><button>Daftar Sekarang</button></a>
+            </div>
+            <div class="activity-card" data-title="Organizing Committee - Sobat Urban Center">
+                <img src="gambar9.png" width="200" height="150">
+                <h3>Organizing Committee - Sobat Urban Center</h3>
+                <p>Perkumpulan YPBB</p>
+                <p>16 Okt 2024 - 31 Des 2024</p>
+                <p>Kota Bandung</p>
+                <a href="https://forms.gle/M6KKw5zMCFXFrAzF9"><button>Daftar Sekarang</button></a>
+            </div>
+            <div class="activity-card" data-title="Open Recruitment Relawan Pengajar 'Literasi Nusantara'">
+                <img src="gambar10.jpg" width="200" height="150">
+                <h3>Open Recruitment Relawan Pengajar 'Literasi Nusantara'</h3>
+                <p>Literasi Nusantara</p>
+                <p>5 November 2024 - 15 Desember 2024</p>
+                <p>Kabupaten Lombok</p>
+                <a href="https://forms.gle/8xM1w9eBw7zsNeSL8"><button>Daftar Sekarang</button></a>
+            </div>
+            <div class="activity-card" data-title="Relawan Kesehatan 'Sehat untuk Nusantara'">
+                <img src="gambar11.jpg" width="200" height="150">
+                <h3>Relawan Kesehatan 'Sehat untuk Nusantara'</h3>
+                <p>Yayasan Sehat Nusantara</p>
+                <p>5-10 Desember 2024</p>
+                <p>Kobupaten Jember</p>
+                <a href="https://forms.gle/VvBQrsjZMwjxvjwm9"><button>Daftar Sekarang</button></a>
+            </div>
+            <div class="activity-card" data-title="Relawan Pengelola Sampah 'Sampah Jadi Berkah'">
+                <img src="gambar12.jpg" width="200" height="150">
+                <h3>Relawan Pengelola Sampah 'Sampah Jadi Berkah'</h3>
+                <p>Lingkungan Berseri Indonesia</p>
+                <p>12 Desember 2024</p>
+                <p>Kota Surabaya</p>
+                <a href="https://forms.gle/zEvMJpTfNMBVdsir8"><button>Daftar Sekarang</button></a>
+            </div>                        
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 VolunteerVerse. Semua Hak Dilindungi.</p>
+    </footer>
+    <script src="script_VV8.js"></script>
+    
+</body>
+</html>
